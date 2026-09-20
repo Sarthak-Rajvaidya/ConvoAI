@@ -21,7 +21,7 @@ qdrant-client>=1.9
 fastembed>=0.3
 
 # -- Audio acquisition -------------------------------------------------------------
-yt-dlp>=2024.8.6
+yt-dlp==2026.8.19
 # ffmpeg (the binary, not a pip package) must be installed separately and on PATH.
 
 # -- Reports -------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# App runtime artifacts
+logs/
+tmp_audio/
+tmp_uploads/
+uploads/
+downloads/
+reports/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

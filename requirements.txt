@@ -1,0 +1,31 @@
+# ==============================================================================
+# AI Meeting Intelligence Assistant — requirements
+# ==============================================================================
+# Local Whisper (optional fallback provider) is intentionally NOT listed here
+# -- it pulls in torch and large model weights. Install separately with
+# `pip install openai-whisper` only if you set TRANSCRIPTION_PROVIDER=local.
+# ==============================================================================
+
+# -- Core ----------------------------------------------------------------------
+streamlit>=1.38
+python-dotenv>=1.0
+
+# -- LLM / speech (Groq) ---------------------------------------------------------
+groq>=0.11
+
+# -- Structured data / validation -------------------------------------------------
+pydantic>=2.6
+
+# -- Vector database + embeddings -------------------------------------------------
+qdrant-client>=1.9
+fastembed>=0.3
+
+# -- Audio acquisition -------------------------------------------------------------
+yt-dlp>=2024.8.6
+# ffmpeg (the binary, not a pip package) must be installed separately and on PATH.
+
+# -- Reports -------------------------------------------------------------------------
+reportlab>=4.1
+
+# -- Utilities --------------------------------------------------------------------------
+requests>=2.31

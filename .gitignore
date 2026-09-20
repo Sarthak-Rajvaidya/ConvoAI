@@ -16,7 +16,7 @@ tmp_audio/
 tmp_uploads/
 uploads/
 downloads/
-reports/
+reports/*
 
 # OS / editor
 .DS_Store
